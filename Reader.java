@@ -1,16 +1,18 @@
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class Reader {
     public static void main(String[] args) {
-        // Use the Scanner class
-        Scanner sc = new Scanner(System.in);
-        /*
-         * int n = sc.nextInt(); // read input as integer
-         * long k = sc.nextLong(); // read input as long
-         * double d = sc.nextDouble(); // read input as double
-         * String str = sc.next(); // read input as String
-         * String s = sc.nextLine(); // read whole line as String
-         */
-        sc.close();
+        // Reader
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String line = "";
+        try {
+            line = br.readLine();
+        } catch (IOException e) { e.printStackTrace(); }
+        
+        // Code
+        long n = Long.parseLong(line);
+        System.out.print(n + " ");
     }
 }
