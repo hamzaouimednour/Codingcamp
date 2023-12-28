@@ -5,6 +5,7 @@ class Solution {
         p.put(')', '(');
         p.put(']', '[');
         p.put('}', '{');
+        
         for(char c : s.toCharArray()) {
             if(p.containsKey(c)) {
                 if(stack.isEmpty() == false && stack.lastElement() == p.get(c)) {
