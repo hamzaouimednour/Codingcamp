@@ -37,6 +37,33 @@
 
 ![DFS](src/BFS.png)
 
+
+# Time Complexity
+```
+O : Time complexity
+n : Input size (length , ...)
+
+O(1) : Constant Time
+i.e: return array[index]
+
+O(log n) : Logarithmic Time
+i.e: Binary search in a sorted array.
+
+O(n) : Linear Time
+i.e: Max, Min
+
+O(n^2) : Quadratic Time
+i.e: Bubble sort
+
+O(1) < O(log n) < O(n) < O(n log n) < O(n^2)
+
+- For example, if you have a loop that iterates through an array of size n, the runtime would be proportional to n.
+Occurance of char:
+	- double loop / search functions : O(n*n)
+	- hashMap : O(n)+O(n)
+	- int[26] : O(k)
+```
+
 # Refs
 - https://cses.fi/problemset/
 - https://leetcode.com/problems
