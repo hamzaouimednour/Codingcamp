@@ -1,3 +1,21 @@
+
+# Data Structures
+
+| **Data Structure**            | Description                                                        | Time Complexity                                                                                                                                         |
+|-------------------------------|--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Arrays**                    | Ordered collection of elements, accessible by index.               | Access by index: O(1)<br>Search: O(n)<br>Insertion/Deletion (at the end): O(1)<br>Insertion/Deletion (in the middle): O(n)                              |
+| **Linked Lists**              | Series of nodes where each node points to the next.                | Access/Search: O(n)<br>Insertion/Deletion (at the beginning): O(1)<br>Insertion/Deletion (in the middle): O(1) if the position is known, O(n) otherwise |
+| **Stacks**                    | Collection with Last-In, First-Out (LIFO) access.                  | Push/Pop/Peek: O(1)                                                                                                                                     |
+| **Queues**                    | Collection with First-In, First-Out (FIFO) access.                 | Enqueue/Dequeue/Peek: O(1)                                                                                                                              |
+| **Hash Tables**               | Key-value pairs with fast retrieval using a hash function.         | Average Case: O(1), Worst Case: O(n) for collisions                                                                                                     |
+| **Trees**                     | Hierarchical structure with nodes connected by edges.              | Search/Insertion/Deletion: O(log n) - Balanced Tree, otherwise: O(n)                                                                                    |
+| **Graphs**                    | Nodes connected by edges, can be directed or undirected.           | Traverse/Search/Insertion/Deletion: O(V + E) or O(n)                                                                                                    |
+| **Heaps**                     | Binary tree-based structure with specific order property.          | Insert: O(log n), Extract-Min/Max: O(1)                                                                                                                 |
+| **Trie**                      | Tree-like structure for strings; each node represents a character. | Search/Insertion/Deletion: O(m), where m is the length of the key                                                                                       |
+| **Disjoint Set (Union-Find)** | Collection of disjoint sets with union and find operations.        | Union/Find: Nearly constant time with optimizations                                                                                                     |
+
+
+
 # Common Graph Algorithms
 
 ## Depth-First Search (DFS):
