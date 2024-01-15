@@ -37,6 +37,10 @@
 
 ![DFS](src/BFS.png)
 
+## Dynamic Programming
+### Recursion + Memoization
+
+![DP](src/DP1.png)
 
 # Time Complexity
 ```
